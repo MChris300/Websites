@@ -1,0 +1,97 @@
+/* Style Sheet for Bradley website */
+
+Body
+{
+background-image: url("desert.jpg");
+background-color:BurlyWood; font-family:Times New Roman,arial;
+color:black;
+font-size: 14px;
+}
+
+ h1
+ {
+ font-family:Times New Roman, arial;
+ color:black;
+ font-size:32px;
+ font-weight: bold; 
+ }
+ 
+ h2
+ {
+ font-family:Times New Roman, arial;
+ color:black;
+ font-size:22px;
+ }
+ 
+ h3
+ {
+ font-family:Times New Roman, arial;
+ color:black;
+ font-style: italic;
+ font-size: 18px;
+ }
+ 
+img.floatleft
+{
+float: left;
+margin: 40px;
+}
+
+hr.style1{
+	height: 3px;
+	width: 100%
+}
+
+table
+{
+background-color: gray;
+font-family:Times New Roman, Arial;
+width:100%;
+}
+table.center
+{
+margin-left: auto;
+margin-right: auto;
+}
+
+table, td, th
+{
+border:3px solid black;
+}
+td, th
+{
+padding:15px;
+vertical-align: bottom;
+}
+td.left
+{
+text-align:left;
+}
+th.center
+{
+text-align: center;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
